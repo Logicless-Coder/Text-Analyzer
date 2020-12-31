@@ -60,6 +60,15 @@
     color: whitesmoke;
 }
 
+.info-div .analyze {
+    background-color: #0d0d0d;
+}
+
+.info-div .analyze:hover {
+    border-color: #fff;
+}
+
+.info-div .analyze,
 .info-div p {
     margin-left: 20px;
     margin-top: 20px;
