@@ -18,19 +18,21 @@
     height: 15vh;
     line-height: 15vh;
     font-family: "Raleway", sans-serif;
+    font-size: 3rem;
 }
 
-.row {
+.main {
     height: 70vh;
     margin: auto;
 }
 
-.row div {
+.main div {
     padding: 10px;
 }
 
 .text-div {
     background-color: #404040;
+    border-radius: 10px 0 0 10px;
 }
 
 #text {
@@ -50,9 +52,15 @@
 
 .info-div {
     background-color: #404040;
+    border-radius: 0 10px 10px 0;
 }
 
-footer {
+.row {
+    margin: auto;
+}
+
+.footer {
+    border-radius: 10px 10px 0 0;
     margin-top: 4vh;
     height: 10.1vh;
     line-height: 10.1vh;
