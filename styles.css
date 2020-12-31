@@ -107,3 +107,21 @@
 .fa-heart {
     color: #fe2020;
 }
+
+.link {
+    color: whitesmoke;
+}
+
+.link:hover {
+    color: lime;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-div p,
+    .footer,
+    .analyze {
+        margin: 5px;
+        font-size: 1em;
+    }
+}
