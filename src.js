@@ -68,17 +68,19 @@ console.log(paraCount);
 console.log(mostFreqChars);
 console.log(mostFreqWords);
 
-let wordCountDiv = infoDiv.children[0];
-wordCountDiv.children[0].textContent = wordCount;
+if (textLength !== 0) {
+	let wordCountDiv = infoDiv.children[0];
+	wordCountDiv.children[0].textContent = wordCount;
 
-let charCountDiv = infoDiv.children[1];
-charCountDiv.children[0].textContent = charCount;
+	let charCountDiv = infoDiv.children[1];
+	charCountDiv.children[0].textContent = charCount;
 
-let paraCountDiv = infoDiv.children[2];
-paraCountDiv.children[0].textContent = paraCount;
+	let paraCountDiv = infoDiv.children[2];
+	paraCountDiv.children[0].textContent = paraCount;
 
-let mostFreqCharsDiv = infoDiv.children[3];
-mostFreqCharsDiv.children[0].textContent = mostFreqChars.toString();
+	let mostFreqCharsDiv = infoDiv.children[3];
+	mostFreqCharsDiv.children[0].textContent = mostFreqChars.toString();
 
-let mostFreqWordsDiv = infoDiv.children[4];
-mostFreqWordsDiv.children[0].textContent = mostFreqWords.toString();
+	let mostFreqWordsDiv = infoDiv.children[4];
+	mostFreqWordsDiv.children[0].textContent = mostFreqWords.toString();
+}
