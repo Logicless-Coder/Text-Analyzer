@@ -51,8 +51,33 @@
 }
 
 .info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     background-color: #404040;
     border-radius: 0 10px 10px 0;
+    color: whitesmoke;
+}
+
+.info-div p {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: "PT Sans", sans-serif;
+}
+
+.info-div p span {
+    color: lime;
+}
+
+@media only screen and (max-width: 960px) {
+    .text-div {
+        border-radius: 10px 10px 0 0;
+    }
+    .info-div {
+        border-radius: 0 0 10px 10px;
+    }
 }
 
 .row {
